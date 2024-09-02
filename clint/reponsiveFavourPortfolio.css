@@ -1,0 +1,64 @@
+@media (max-width:768px) {
+    nav {
+        height: fit-content;
+        align-items: flex-start;
+    }
+    .home h1{
+        font-size: 70px;
+    }
+    .my-word{
+        margin-top: -20px;
+        margin-left: 10px;
+    } 
+    .my-word h1{
+        font-size: 30px;
+        margin-top: 100px;
+        letter-spacing: 0px;
+    }
+    .my-word p{
+        font-size: 10px;
+    }
+    .hero-btn{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+
+
+    }
+    .line-break{
+        display: none;
+    }
+    .meet-me{
+        display: grid;
+    }
+.tag{
+    display: grid;
+    color: blue;
+    font-size: 30px;
+    margin-bottom: -10px;
+    margin-top: -2px;
+
+}
+.real-content p{
+    font-size: 15px;
+    color: rgb(177, 171, 171);
+}
+a{
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 5px;
+}
+ul{
+    margin-left: 35px;
+}
+.NIMS{
+    color: white;
+    margin-right: 0px;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+    
+}
+   
+    }

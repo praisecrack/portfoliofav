@@ -1,0 +1,498 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.NIMS {
+    background: linear-gradient(blue white);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0px;
+    margin-top: 8px;
+    margin-right: 680px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li {
+    text-align: center;
+    display: flex;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize15
+}
+
+a:hover {
+    color: deeppink;
+    transition: 2s;
+}
+
+nav {
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    padding: 0px 30px;
+    right: 20px;
+
+}
+
+header {
+    height: 70px;
+    background-color: rgb(9, 9, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 20px white;
+    top: 0%;
+    left: 0%;
+
+}
+
+section {
+    padding-top: 50px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.my-class {
+    background-color: aqua;
+    width: 500px;
+    height: 100px;
+    border: 1px solid;
+}
+
+.home {
+    background-image: url(kostya-mikryukov-iX3fVzLgOB8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hompage section */
+.home h1 {
+    margin-top: 180px;
+    letter-spacing: 2px;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 3px 3px 3xp blue;
+    cursor: pointer;
+    text-align: center;
+}
+
+.home p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.over-btn {
+    padding: 10px 50px 10px 50px;
+    margin-left: 580px;
+    margin-top: 50px;
+    margin-top: 500px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.over-btn:hover {
+    transition: 2s;
+    background-color: darkblue;
+    color: white;
+}
+
+/* Aboutme section */
+
+.abouts {
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.7), pink), url("pexels-shvetsa-4557818.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about h1 {
+
+    color: white;
+    font-size: 50px;
+}
+
+.about p {
+    color: #ffff;
+    text-align: left;
+    margin-top: -10px;
+
+}
+
+/* .my-word h2{
+    color: deeppink;
+    font-weight: lighter;
+    margin-top: -20px;
+} */
+.content-about {
+    display: flex;
+}
+
+.my-word {
+    margin-top: 20px;
+    margin-left: 350px;
+    text-align: center;
+
+}
+
+.my-word h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-family: bold;
+    letter-spacing: 5px;
+    text-decoration: solid;
+    text-shadow: 3px 3px 3px blue;
+
+
+}
+
+.my-word p {
+    color: #bebbbb;
+    margin-top: -20px;
+
+}
+
+.world-about {
+    width: 500px;
+    height: 300px;
+    margin: 50vh 100px;
+}
+
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero-btn:hover {
+    transition: 2s;
+    background-color: darkblue;
+    border: 1px solid blue;
+    color: white;
+    box-shadow: 0px 0px 20px blue;
+
+}
+
+.meet-me {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tag {
+    display: none;
+}
+
+.real-me {
+    width: 400px;
+    height: 250px;
+    image-rendering: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.line-break {
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+
+.real-content {
+    color: #ffff;
+
+}
+
+
+/* this is my services styling */
+.service {
+    color: black;
+}
+
+.service {
+    background-image: linear-gradient(rgb(255, 252, 252), rgba(255, 255, 255, 0.7)), url("Images/blackgirl.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.service h1 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: Blue;
+    animation-name: forward;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    margin-left: -1400px;
+    position: inherit;
+    animation-timing-function: linear;
+    z-index: -1;
+
+
+}
+
+@keyframes forward {
+    from {
+        transform: translatex(0%);
+    }
+
+    to {
+        transform: translatex(700px);
+
+    }
+}
+
+/* .movements {
+    width: 400px;
+    height: 150px;
+    margin-top: 200px;
+    background-color: pink;
+    margin-left: 450px;
+} */
+.movements {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.all-images {
+    position: absolute;
+    overflow: visible;
+    margin-top: 310px;
+    width: 60000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    animation-name: image-moving;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+}
+
+.all-images:hover {
+    animation-play-state: paused;
+}
+
+@keyframes image-moving {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-1480px);
+    }
+}
+
+.all-images img {
+    height: 150px;
+    width: 200px;
+}
+
+.movement img:hover {
+    animation-play-state: paused;
+}
+
+.container-serv {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: -100px;
+}
+
+.container-serv p {
+    color: rgb(70, 69, 69);
+    text-align: left;
+}
+
+.container-serv img {
+    margin-right: 30px;
+}
+
+.first-service {
+    display: flex;
+    margin: 60px 90px;
+    align-items: center;
+    padding: 10px;
+    background: rgb(241, 197, 205);
+    border-radius: 10px;
+
+
+}
+
+.second-service {
+    display: flex;
+    margin: 60px 90px;
+    align-items: center;
+    padding: 10px;
+    background: rgb(241, 197, 205);
+    border-radius: 10px;
+
+}
+
+.service {
+    text-align: center;
+}
+
+.same {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+/* this si the contact page */
+
+
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 0px 10px;
+
+}
+
+input:hover {
+    border: none;
+}
+
+.container {
+    background-color: rgb(248, 242, 243);
+    padding: 4.5rem;
+    border-radius: 10px;
+    margin-top: -70px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container:hover {
+    background-color: rgb(243, 218, 222);
+    transition: 1s;
+    box-shadow: 5px 5px 10px rgb(149, 149, 171);
+    border: none;
+}
+
+::placeholder {
+    color: grey;
+    padding: 2rem;
+}
+
+.hero a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.hero {
+
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    padding-top: 0px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.hero:hover {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(194, 194, 227);
+    transition: 1s;
+    border: none;
+}
+
+.sheet a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.img img {
+    width: 500px;
+    height: 430px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.container h1 {
+    padding: 5px 7px;
+    text-align: center;
+}
+
+.checkbox {
+    width: auto;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.go-back {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300px;
+    margin-top: 50px;
+    color: blue;
+}
+
+.contact p {
+    color: grey;
+    text-align: center;
+}
+
+.contact h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
